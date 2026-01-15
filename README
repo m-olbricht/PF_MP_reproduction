@@ -1,0 +1,41 @@
+Vergleichsordner Code Martinez-Paneda / TUBAF
+
+Paper: E. Martínez-Pañeda, A. Golahmar, C.F. Niordson. A phase field formulation for hydrogen assisted cracking. 
+Computer Methods in Applied Mechanics and Engineering, 342: 742-761 (2018)
+
+
+Simulation MP: 
+
+Kopiere Job-1.inp und PhaseField.for in einen Ordner
+abq2022 job=Job-1.inp user=PhaseField.for
+
+Auswerten MP:
+
+AbqCAE in Ordner starten, ResultsQ4.py laufen lassen
+
+
+Simulation TUBAF:
+
+UEL aus UEL_PFF_staggered_MP_reproduction über ./create....
+
+Simulation starten
+
+Abaquser nutzen
+
+AbqCAE im Ordner starten, ResultsQ4.py laufen lassen
+
+
+==============================
+Ordner Erklärung:
+==============================
+
+PhaseFieldUEL_MP --> Originalordner von Martinez-Paneda
+
+Simulation_MP --> Simulation mit Code von MP + Debug-Version zum Ausschreiben von Variablen
+(Anmerkung: gradphi stress ist inkorrekt, Möglicherweise auch grad phi selbst.)
+
+UEL_PFF_staggered_MP_reproduction --> Ordner mit TUBAF-UEL nach Vorbild von MP
+
+Simulation_TUBAF_CODE_MP --> Simulation mit Code von TUBAF
+
+
